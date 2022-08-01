@@ -1,0 +1,50 @@
+.newProduct {
+    flex: 4;
+    padding: 20px;
+}
+.newProductTitle {
+    font-size: 25px;
+    color: #6a6666;
+}
+.newProductForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.newProductItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.newProductItem label {
+    color: #6a6666;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.newProductItem #file{
+    border-bottom: none;
+}
+.newProductItem input , .newProductItem select {
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+}
+.newProductItem input {
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.newProductItem input:focus {
+    outline: none;
+}
+.newProductBtn {
+    border: none;
+    background-color: #6a6666;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    width: 100px;
+    margin-top: 20px;
+}

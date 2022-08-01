@@ -1,0 +1,20 @@
+.products {
+    flex: 4;
+}
+.productItem {
+    display: flex;
+    align-items: center;
+}
+.productItemImg {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.productInfoBtn {
+    color: #666866;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.productDelBtn {
+    color: #ea1a34;
+    cursor: pointer;
+}

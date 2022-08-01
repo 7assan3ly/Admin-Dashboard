@@ -10,7 +10,7 @@ export default function Sidebar() {
                 <div className='sideWrapper'>
                     <h3 className='listHead'> Dashboard </h3>
                     <ul className='sideList'>
-                        <Link className='link' exact to="/">
+                        <Link className='link' to="/Admin-Dashboard">
                             <li className='sideListItem active'>
                                 <Home className='sideListItemIcon' />
                                 Home
